@@ -9,7 +9,7 @@
         "type": "shared",
         "pattern": [
           "src/components/**/*",
-          "src/drizzle/**/*",
+          "src/db/**/*",
           "src/hooks/**/*",
           "src/lib/**/*",
           "src/env/**/*"
@@ -30,7 +30,7 @@
       {
         "mode": "full",
         "type": "neverImport",
-        "pattern": ["src/*", "src/tasks/**/*"]
+        "pattern": ["src/*"]
       }
     ]
   },
