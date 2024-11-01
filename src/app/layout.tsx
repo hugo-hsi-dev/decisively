@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 
+// eslint-disable-next-line boundaries/element-types
 import './globals.css';
 
 import localFont from 'next/font/local';

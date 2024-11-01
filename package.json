@@ -10,9 +10,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@t3-oss/env-nextjs": "^0.11.1",
+    "jiti": "^2.4.0",
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.1.0",
@@ -22,10 +25,13 @@
     "@types/node": "^22.8.6",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "eslint": "^9.13.0",
+    "eslint": "^8",
     "eslint-config-next": "15.0.2",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-boundaries": "^4.2.2",
+    "eslint-plugin-check-file": "^2.8.0",
     "eslint-plugin-drizzle": "^0.2.3",
+    "eslint-plugin-n": "^17.12.0",
     "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "tailwindcss": "^3.4.14",
