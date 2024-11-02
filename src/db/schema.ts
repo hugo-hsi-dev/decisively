@@ -1,1 +1,1 @@
-export * from '@/features/choices/db/schema';
+export * from '@/features/choices/schemas/table';
