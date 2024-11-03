@@ -4,10 +4,9 @@ import { client } from '@/features/choices/lib/hono-client';
 
 export function useGetAllChoices() {
   return useQuery({
-    queryKey: ['choices', 'all'],
+    queryKey: ['all-choices'],
     queryFn: async () => {
       const res = await client.index.$get();
-      throw new Error('hi');
       return await res.json();
     },
   });

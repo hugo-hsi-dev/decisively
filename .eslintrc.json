@@ -12,8 +12,7 @@
           "src/db/**/*",
           "src/api/**/*",
           "src/hooks/**/*",
-          "src/lib/**/*",
-          "src/env/**/*"
+          "src/lib/**/*"
         ]
       },
       {

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 // eslint-disable-next-line boundaries/element-types
 import './globals.css';
 
-import Providers from '@/lib/providers';
+import { Providers } from '@/lib/providers';
 
 export const metadata: Metadata = {
   title: 'Create Next App',

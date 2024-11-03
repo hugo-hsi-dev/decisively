@@ -7,7 +7,7 @@ import type { NextConfig } from 'next';
 const jiti = createJiti(fileURLToPath(import.meta.url));
 
 // Import env here to validate during build. Using jiti we can import .ts files :)
-jiti.esmResolve('./src/env/server.ts');
+jiti.esmResolve('./src/lib/env.ts');
 
 const nextConfig: NextConfig = {
   /* config options here */

@@ -4,4 +4,4 @@ import app from '@/features/choices/api/index.routes';
 
 type AppType = typeof app;
 
-export const client = hc<AppType>('/api/choices');
+export const client = hc<AppType>(`/api/choices`);
