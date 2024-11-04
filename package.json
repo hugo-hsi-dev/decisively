@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "shadcn": "pnpm dlx shadcn@latest add",
-    "auth:generate": "npx @better-auth/cli@latest generate --output=./src/features/auth/schemas/table.ts --config=./src/features/auth/lib/auth.server.ts"
+    "auth:generate": "npx @better-auth/cli@latest generate --output=./src/features/auth/schemas/table.ts --config=./src/features/auth/lib/auth.config.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

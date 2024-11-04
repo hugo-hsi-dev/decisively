@@ -1,7 +1,7 @@
 import { Hono } from 'hono/quick';
 
 import { db } from '@/db';
-import { verifySession } from '@/lib/verify-session';
+import { verifySession } from '@/lib/verify-session.middleware';
 
 const app = new Hono().get('/', verifySession, async (c) => {
   const data = await db.query.choicesTable.findMany();

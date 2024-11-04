@@ -1,6 +1,6 @@
 import { createFactory } from 'hono/factory';
 
-import { auth } from '@/features/auth/lib/auth.server';
+import { auth } from '@/features/auth/lib/auth.config';
 
 const factory = createFactory();
 

@@ -3,7 +3,7 @@ import { HTTPException } from 'hono/http-exception';
 import status from 'http-status';
 
 // eslint-disable-next-line boundaries/element-types
-import { auth } from '@/features/auth/lib/auth.server';
+import { auth } from '@/features/auth/lib/auth.config';
 
 type VerifySessionContext = {
   Variables: {

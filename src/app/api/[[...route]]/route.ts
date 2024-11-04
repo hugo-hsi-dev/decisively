@@ -1,5 +1,3 @@
-/* eslint-disable check-file/folder-naming-convention */
-
 import { Hono } from 'hono/quick';
 import { handle } from 'hono/vercel';
 
